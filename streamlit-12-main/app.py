@@ -1,6 +1,6 @@
 # # This app is for educational purpose only. Insights gained is not financial advice. Use at your own risk!
 import streamlit as st
-from PIL import Image
+
 import pandas as pd
 import base64
 import matplotlib.pyplot as plt
@@ -19,9 +19,9 @@ st.set_page_config(layout="wide") #st.beta_set_page_config(layout="wide")
 #---------------------------------#
 # Title
 
-image = Image.open('logo.jpg')
 
-st.image(image, width = 500)
+
+
 
 st.title('Crypto Price App')
 st.markdown("""
