@@ -14,7 +14,7 @@ import time
 #---------------------------------#
 # Page layout
 ## Page expands to full width
-st.set_page_config(layout="wide")
+##st.set_page_config(layout="wide")
 #---------------------------------#
 
 
