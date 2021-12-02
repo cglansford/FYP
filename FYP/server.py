@@ -1,7 +1,4 @@
-
-
-from flask import Flask
-from flask import render_template
+import flask
 import requests
 
 app = Flask(__name__) # Create the app app.config['TEMPLATES_AUTO_RELOAD'] = True # This will make sure we don't need to restart the server each time we change something to the layout of the webpage
