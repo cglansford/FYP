@@ -1,5 +1,5 @@
-!pip install flask
-!pip install requests
+pip install flask
+pip install requests
 
 from flask import Flask, render_template
 import requests
