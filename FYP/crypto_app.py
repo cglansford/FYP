@@ -3,7 +3,6 @@ import streamlit as st
 import pandas as pd
 import base64
 import matplotlib.pyplot as plt
-import BeautifulSoup4
 from bs4 import BeautifulSoup
 import requests
 import json
